@@ -27,3 +27,15 @@ body {
 .card:hover {
     transform: translateY(-5px);
 }
+
+.card-img-top {
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: darkblue;
+    object-fit: contain;
+}
+
+.card-img-top:hover {
+    transform: scale(1.05);
+}
