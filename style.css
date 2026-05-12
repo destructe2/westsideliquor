@@ -21,7 +21,22 @@ body {
     background-image: url('images/liquors.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: 50vh;
+        background-position: center top;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
 }
 
 .hero p {
