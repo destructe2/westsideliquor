@@ -1,9 +1,10 @@
 body {
     font-family: 'Arial', sans-serif;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1920x600?text=Liquor+Store');
+    background: linear-gradient(#00000080, rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1920x600?text=Liquor+Store');
     background-size: cover;
     background-position: center;
     height: 60vh;
@@ -14,6 +15,13 @@ body {
 
 .hero h1 {
     font-size: 3rem;
+}
+
+#home {
+    background-image: url('images/liquors.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .hero p {
@@ -32,10 +40,18 @@ body {
     height: 200px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background-color: darkblue;
+    background-color: rgba(0, 0, 0, 0.8);
     object-fit: contain;
 }
 
 .card-img-top:hover {
     transform: scale(1.05);
+}
+
+#products h2 {
+    color: white;
+}
+
+#contact {
+    color: white;
 }
